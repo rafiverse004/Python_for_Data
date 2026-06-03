@@ -1,6 +1,6 @@
 import numpy as np
 
-rng = np.random.default_rng() #seed=1 can be inside the rung()
+rng = np.random.default_rng() #seed=1 can be inside the rng()
 
 print(rng.integers(low=1, high=101, size=(2,3)))
 
